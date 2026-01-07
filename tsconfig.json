@@ -1,0 +1,4 @@
+{
+  "extends": "@regardio/dev/typescript/base.json",
+  "include": ["src/**/*.ts"]
+}

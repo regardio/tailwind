@@ -1,0 +1,20 @@
+{
+  "$schema": "https://biomejs.dev/schemas/latest/schema.json",
+  "extends": ["@regardio/dev/biome"],
+  "files": {
+    "ignoreUnknown": true,
+    "includes": ["**"]
+  },
+  "overrides": [
+    {
+      "includes": ["src/**/index.ts", "src/**/index.parts.ts"],
+      "linter": {
+        "rules": {
+          "performance": {
+            "noBarrelFile": "off"
+          }
+        }
+      }
+    }
+  ]
+}

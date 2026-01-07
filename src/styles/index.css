@@ -1,0 +1,19 @@
+/**
+ * @regardio/tailwind - Shared Styles
+ *
+ * Import this file to include all shared styles:
+ * @import "@regardio/tailwind/styles";
+ *
+ * Or import individual files:
+ * @import "@regardio/tailwind/styles/plugins.css";
+ * @import "@regardio/tailwind/styles/reset.css";
+ * @import "@regardio/tailwind/styles/base.css";
+ * @import "@regardio/tailwind/styles/grid.css";
+ * @import "@regardio/tailwind/styles/animations.css";
+ */
+
+@import "./plugins.css";
+@import "./reset.css";
+@import "./base.css";
+@import "./grid.css";
+@import "./animations.css";

@@ -1,0 +1,13 @@
+/**
+ * Tailwind CSS Core & Plugins
+ * Import this to get Tailwind CSS with Regardio's standard plugins
+ */
+
+/* Tailwind CSS v4 */
+@import "tailwindcss";
+
+/* Animation utilities */
+@import "tw-animate-css";
+
+/* Fluid typography and spacing */
+@plugin "fluid-tailwindcss";

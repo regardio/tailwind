@@ -1,0 +1,153 @@
+/**
+ * Animation Utilities
+ * Common keyframes and animation classes
+ */
+
+/* Extended duration classes beyond Tailwind defaults */
+.duration-2000 {
+  transition-duration: 2000ms;
+}
+
+.duration-2500 {
+  transition-duration: 2500ms;
+}
+
+.duration-3000 {
+  transition-duration: 3000ms;
+}
+
+.duration-4000 {
+  transition-duration: 4000ms;
+}
+
+.duration-5000 {
+  transition-duration: 5000ms;
+}
+
+.duration-6000 {
+  transition-duration: 6000ms;
+}
+
+@theme {
+  /* Fade animations */
+  --animate-fade-in: fade-in 0.3s ease-out forwards;
+  --animate-fade-out: fade-out 0.3s ease-out forwards;
+  --animate-fade-in-slow: fade-in 0.6s ease-out forwards;
+  --animate-fade-out-slow: fade-out 0.6s ease-out forwards;
+
+  /* Slide animations */
+  --animate-slide-in-up: slide-in-up 0.3s ease-out forwards;
+  --animate-slide-in-down: slide-in-down 0.3s ease-out forwards;
+  --animate-slide-in-left: slide-in-left 0.3s ease-out forwards;
+  --animate-slide-in-right: slide-in-right 0.3s ease-out forwards;
+
+  /* Scale animations */
+  --animate-scale-in: scale-in 0.2s ease-out forwards;
+  --animate-scale-out: scale-out 0.2s ease-out forwards;
+
+  /* Image slideshow animations */
+  --animate-image-fade-in: image-fade-in 6s ease-out forwards;
+  --animate-image-fade-out: image-fade-out 6s ease-out forwards;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  @keyframes slide-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slide-in-down {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slide-in-left {
+    from {
+      opacity: 0;
+      transform: translateX(-1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slide-in-right {
+    from {
+      opacity: 0;
+      transform: translateX(1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes scale-in {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes scale-out {
+    from {
+      opacity: 1;
+      transform: scale(1);
+    }
+    to {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+  }
+
+  @keyframes image-fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes image-fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+}
