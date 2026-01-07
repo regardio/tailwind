@@ -1,5 +1,11 @@
 # @regardio/tailwind
 
+## 0.1.2
+
+### Patch Changes
+
+- release workflow
+
 ## 0.1.1
 
 ### Patch Changes

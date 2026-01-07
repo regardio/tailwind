@@ -54,6 +54,7 @@
     "lint": "exec-p lint:*",
     "lint:biome": "lint-biome check .",
     "lint:md": "lint-md",
+    "prepare": "exec-husky",
     "release": "flow-release",
     "test": "exec-s test:*",
     "test:unit": "vitest run",
@@ -61,5 +62,5 @@
     "version": "flow-changeset version"
   },
   "type": "module",
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
