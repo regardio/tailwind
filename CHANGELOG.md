@@ -1,5 +1,11 @@
 # @regardio/tailwind
 
+## 0.1.3
+
+### Patch Changes
+
+- consistent QA tools across our packages
+
 ## 0.1.2
 
 ### Patch Changes
