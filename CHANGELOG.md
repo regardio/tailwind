@@ -1,5 +1,16 @@
 # @regardio/tailwind
 
+## 0.2.0
+
+### Minor Changes
+
+- feat: enhance cn utility with flexible class value support
+  - Add clsx dependency for handling ClassValue inputs
+  - Support objects, arrays, and conditional classes in cn() function
+  - Maintain Tailwind conflict resolution via twMerge
+  - Add comprehensive tests for new functionality
+  - Enable complex conditional styling patterns (e.g., dark mode variants)
+
 ## 0.1.3
 
 ### Patch Changes

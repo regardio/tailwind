@@ -33,4 +33,65 @@ describe('cn', () => {
   it('handles empty call', () => {
     expect(cn()).toBe('');
   });
+
+  it('handles object inputs', () => {
+    expect(cn({ bar: false, baz: true, foo: true })).toBe('baz foo');
+  });
+
+  it('handles array inputs', () => {
+    expect(cn(['foo', 'bar', 'baz'])).toBe('foo bar baz');
+  });
+
+  it('handles mixed inputs', () => {
+    expect(cn('foo', { bar: true, baz: false }, ['qux'])).toBe('foo bar qux');
+  });
+
+  it('handles conditional classes', () => {
+    const condition = true;
+    const falseCondition = false;
+    expect(cn('foo', condition && 'bar', falseCondition && 'baz')).toBe('foo bar');
+  });
+
+  it('handles nested arrays', () => {
+    expect(cn(['foo', ['bar', 'baz']])).toBe('foo bar baz');
+  });
+
+  it('handles complex object with conditional values', () => {
+    const isActive = true;
+    expect(
+      cn({
+        bar: false,
+        baz: isActive,
+        foo: true,
+        quux: undefined,
+        qux: null,
+      }),
+    ).toBe('baz foo');
+  });
+
+  it('handles complex Tailwind classes with conditional variants', () => {
+    const isActive = true;
+    const baseClasses = 'inline-flex w-max text-sm transition-colors duration-300';
+    const variants = {
+      'dark:text-gray-300 dark:hover:text-white': !isActive,
+      'text-current dark:text-white': isActive,
+    };
+
+    expect(cn(baseClasses, variants)).toBe(
+      'inline-flex w-max text-sm transition-colors duration-300 text-current dark:text-white',
+    );
+  });
+
+  it('handles complex Tailwind classes with different conditional state', () => {
+    const isActive = false;
+    const baseClasses = 'inline-flex w-max text-sm transition-colors duration-300';
+    const variants = {
+      'dark:text-gray-300 dark:hover:text-white': !isActive,
+      'text-current dark:text-white': isActive,
+    };
+
+    expect(cn(baseClasses, variants)).toBe(
+      'inline-flex w-max text-sm transition-colors duration-300 dark:text-gray-300 dark:hover:text-white',
+    );
+  });
 });
