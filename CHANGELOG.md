@@ -1,5 +1,11 @@
 # @regardio/tailwind
 
+## 0.3.0
+
+### Minor Changes
+
+- refactor: move to tsdown, explicit typings
+
 ## 0.2.0
 
 ### Minor Changes
