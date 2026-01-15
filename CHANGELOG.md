@@ -1,5 +1,11 @@
 # @regardio/tailwind
 
+## 0.3.1
+
+### Patch Changes
+
+- fix: remove lock file
+
 ## 0.3.0
 
 ### Minor Changes
