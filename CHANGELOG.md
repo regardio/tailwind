@@ -1,5 +1,11 @@
 # @regardio/tailwind
 
+## 0.3.2
+
+### Patch Changes
+
+- dependencies updates
+
 ## 0.3.1
 
 ### Patch Changes
