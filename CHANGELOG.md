@@ -1,5 +1,11 @@
 # @regardio/tailwind
 
+## 0.3.3
+
+### Patch Changes
+
+- chore: dependencies and formatting
+
 ## 0.3.2
 
 ### Patch Changes
