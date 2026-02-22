@@ -1,5 +1,11 @@
 # @regardio/tailwind
 
+## 0.3.5
+
+### Patch Changes
+
+- fix: include dist in published package
+
 ## 0.3.4
 
 ### Patch Changes
