@@ -53,17 +53,17 @@
   "dependencies": {
     "clsx": "2.1.1",
     "fluid-tailwindcss": "1.0.5",
-    "tailwind-merge": "3.4.1",
+    "tailwind-merge": "3.5.0",
     "tailwind-variants": "3.2.2",
     "tw-animate-css": "1.4.0"
   },
   "devDependencies": {
-    "@regardio/dev": "1.13.5",
+    "@regardio/dev": "1.13.6",
     "@total-typescript/ts-reset": "0.6.1",
-    "@types/node": "25.2.3",
+    "@types/node": "25.3.0",
     "@vitest/coverage-v8": "4.0.18",
     "@vitest/ui": "4.0.18",
-    "tailwindcss": "4.1.18",
+    "tailwindcss": "4.2.0",
     "tsdown": "0.20.3",
     "vitest": "4.0.18"
   },
