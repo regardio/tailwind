@@ -1,5 +1,11 @@
 # @regardio/tailwind
 
+## 0.3.4
+
+### Patch Changes
+
+- fix: formatting and linting
+
 ## 0.3.3
 
 ### Patch Changes

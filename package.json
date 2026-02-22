@@ -1,14 +1,9 @@
 {
   "$schema": "https://www.schemastore.org/package.json",
   "name": "@regardio/tailwind",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Regardio Tailwind CSS utilities and configuration",
-  "keywords": [
-    "tailwind",
-    "tailwindcss",
-    "utilities",
-    "regardio"
-  ],
+  "keywords": ["tailwind", "tailwindcss", "utilities", "regardio"],
   "homepage": "https://github.com/regardio/tailwind#readme",
   "bugs": {
     "url": "https://github.com/regardio/tailwind/issues"
@@ -24,21 +19,19 @@
     "./styles": "./dist/styles/index.css",
     "./styles/*": "./dist/styles/*",
     "./utils": {
-      "types": "./dist/index.d.mts",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.mts"
     }
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
-    "build": "tsdown && pnpm fix",
+    "build": "exec-s fix",
     "dev": "tsdown --watch",
-    "fix": "exec-p fix:*",
+    "fix": "exec-s fix:pkg fix:md fix:biome",
     "fix:biome": "lint-biome check --write --unsafe .",
     "fix:md": "lint-md --fix",
     "fix:pkg": "lint-package --fix",
-    "lint": "exec-p lint:*",
+    "lint": "exec-s lint:md lint:biome",
     "lint:biome": "lint-biome check .",
     "lint:md": "lint-md",
     "lint:pkg": "lint-package",
@@ -47,6 +40,7 @@
     "report": "vitest run --coverage",
     "test": "exec-s test:*",
     "test:unit": "vitest run",
+    "tsdown": "tsdown",
     "typecheck": "exec-tsc --noEmit",
     "version": "flow-changeset version"
   },
@@ -58,7 +52,7 @@
     "tw-animate-css": "1.4.0"
   },
   "devDependencies": {
-    "@regardio/dev": "1.13.6",
+    "@regardio/dev": "1.13.8",
     "@total-typescript/ts-reset": "0.6.1",
     "@types/node": "25.3.0",
     "@vitest/coverage-v8": "4.0.18",
