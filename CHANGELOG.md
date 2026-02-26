@@ -1,5 +1,9 @@
 # @regardio/tailwind
 
+## [0.3.7] - 2026-02-26
+
+- chore: deps
+
 ## 0.3.6
 
 ### Patch Changes
