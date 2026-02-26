@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.schemastore.org/package.json",
   "name": "@regardio/tailwind",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "private": false,
   "description": "Regardio Tailwind CSS utilities and configuration",
   "keywords": ["tailwind", "tailwindcss", "utilities", "regardio"],

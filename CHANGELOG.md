@@ -1,5 +1,10 @@
 # @regardio/tailwind
 
+## [0.3.8] - 2026-02-26
+
+- refactor: use flow tasks, remove changeset, update dependencies
+- chore: add private package guard to release.yml
+
 ## [0.3.7] - 2026-02-26
 
 - chore: deps
