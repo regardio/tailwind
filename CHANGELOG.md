@@ -1,5 +1,9 @@
 # @regardio/tailwind
 
+## [0.3.9] - 2026-02-28
+
+- chore: deps
+
 ## [0.3.8] - 2026-02-26
 
 - refactor: use flow tasks, remove changeset, update dependencies
