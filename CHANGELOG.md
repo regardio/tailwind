@@ -1,5 +1,11 @@
 # @regardio/tailwind
 
+## [0.3.10] - 2026-03-10
+
+- chore: deps
+- chore: deps
+- chore: deps
+
 ## [0.3.9] - 2026-02-28
 
 - chore: deps
