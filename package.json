@@ -4,12 +4,7 @@
   "version": "0.3.11",
   "private": false,
   "description": "Regardio Tailwind CSS utilities and configuration",
-  "keywords": [
-    "tailwind",
-    "tailwindcss",
-    "utilities",
-    "regardio"
-  ],
+  "keywords": ["tailwind", "tailwindcss", "utilities", "regardio"],
   "homepage": "https://github.com/regardio/tailwind#readme",
   "bugs": {
     "url": "https://github.com/regardio/tailwind/issues"
@@ -29,9 +24,7 @@
       "types": "./dist/index.d.mts"
     }
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch",
