@@ -1,5 +1,9 @@
 # @regardio/tailwind
 
+## [0.4.0] - 2026-03-18
+
+- refactor: separation of concerns, this is just a utility package
+
 ## [0.3.12] - 2026-03-17
 
 - chore: deps
