@@ -9,5 +9,11 @@
 /* Animation utilities */
 @import "tw-animate-css";
 
-/* Fluid typography and spacing */
-@plugin "fluid-tailwindcss";
+/* Fluid typography and spacing plugin */
+@plugin "fluid-tailwindcss" {
+  minViewport: 320;
+  maxViewport: 2560;
+  useRem: true;
+  rootFontSize: 16;
+  checkAccessibility: true;
+}
