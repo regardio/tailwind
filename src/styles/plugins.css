@@ -9,7 +9,8 @@
 /* Animation utilities */
 @import "tw-animate-css";
 
-/* Fluid typography and spacing plugin */
+/* Tailwind plugins */
+@plugin "@tailwindcss/typography";
 @plugin "fluid-tailwindcss" {
   minViewport: 320;
   maxViewport: 2560;
