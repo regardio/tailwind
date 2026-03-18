@@ -1,5 +1,9 @@
 # @regardio/tailwind
 
+## [0.4.2] - 2026-03-18
+
+- feat: explicit types for UserConfig
+
 ## [0.4.1] - 2026-03-18
 
 - feat: typography plugin
