@@ -1,5 +1,11 @@
 # @regardio/tailwind
 
+## [0.4.3] - 2026-03-25
+
+- chore: deps
+- chore: deps
+- chore: deps
+
 ## [0.4.2] - 2026-03-18
 
 - feat: explicit types for UserConfig
