@@ -61,7 +61,7 @@
     "@vitest/coverage-v8": "4.1.2",
     "@vitest/ui": "4.1.2",
     "tailwindcss": "4.2.2",
-    "tsdown": "0.21.5",
+    "tsdown": "0.21.7",
     "vitest": "4.1.2"
   },
   "peerDependencies": {
