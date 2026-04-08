@@ -1,5 +1,14 @@
 # @regardio/tailwind
 
+## [0.5.0] - 2026-04-08
+
+- chore(@regardio/tailwind): upgrade dependencies
+- chore(@regardio/tailwind): upgrade dependencies
+- chore: update workflow packages
+- chore: deps
+- chore: deps
+- fix: husky
+
 ## [0.4.3] - 2026-03-25
 
 - chore: deps
